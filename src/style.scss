@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #353e45;
+  color: white;
+  display: grid;
+  grid-template-rows: 100vh 100vh 250vh 100vh;
+
+  .landing {
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+
+    .toggle {
+      height: 20px;
+      width: 35px;
+      margin-top: 25px;
+      margin-right: 30px;
+      margin-left: auto;
+      background-color: white;
+      border-radius: 50px;
+      background: #353e45;
+      border: 1.25px solid #51606b;
+      cursor: pointer;
+
+      .circle {
+        position: relative;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        top: 50%;
+        left: 1.25px;
+        border: 1.25px solid rgb(190, 190, 190);
+        transform: translateY(-50%);
+      }
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 30vh;
+
+      .title {
+        font-family: "Gochi Hand", cursive;
+        font-size: 64px;
+        letter-spacing: 10px;
+      }
+
+      .subtitle {
+        font-family: "comfortaa", cursive;
+        font-size: 18px;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  .about {
+    .text {
+      text-align: center;
+      margin-top: 30vh;
+
+      .title {
+        font-family: "Righteous", cursive;
+        font-size: 64px;
+      }
+
+      .subtitle {
+        font-family: "comfortaa", cursive;
+        font-size: 24px;
+        padding-top: 50px;
+      }
+    }
+  }
+
+  .work {
+    width: 80vw;
+    height: 90%;
+    background-color: white;
+    margin: 0 auto;
+
+    .text {
+      font-family: "Righteous", cursive;
+      font-size: 64px;
+      color: #353e45;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .link {
+      width: 80%;
+      height: 19%;
+      margin: 50px 10%;
+      text-align: center;
+      cursor: pointer;
+
+      &.one {
+        background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0.6) 0%,
+            rgba(0, 0, 0, 0.6) 100%
+          ),
+          url("./windia.png");
+        background-size: cover;
+      }
+      &.two {
+        background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0.6) 0%,
+            rgba(0, 0, 0, 0.6) 100%
+          ),
+          url("./lindathai.png");
+        background-size: cover;
+      }
+      &.three {
+        background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0.6) 0%,
+            rgba(0, 0, 0, 0.6) 100%
+          ),
+          url("./portfoliov1.png");
+        background-size: cover;
+      }
+      &.four {
+        background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0.6) 0%,
+            rgba(0, 0, 0, 0.6) 100%
+          ),
+          url("./amino.png");
+        background-size: cover;
+      }
+
+      .title {
+        text-decoration: none;
+        display: inline-block;
+        font-family: "comfortaa", cursive;
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        color: white;
+
+        div {
+          position: relative;
+          top: 40%;
+          font-family: "comfortaa", cursive;
+        }
+
+        .desc {
+          opacity: 0;
+          font-size: 14px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .contact {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    .title {
+      margin-top: 20vh;
+      letter-spacing: 5px;
+      font-family: "Righteous", cursive;
+      font-size: 52px;
+    }
+
+    .subtitle {
+      font-family: "comfortaa", cursive;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+    .bar {
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+      margin: auto;
+      .icon {
+        margin: 80px auto;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+      }
+    }
+  }
+}

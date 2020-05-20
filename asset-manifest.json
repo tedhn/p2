@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/p2/static/css/main.ac33b586.chunk.css",
+    "main.js": "/p2/static/js/main.152df33c.chunk.js",
+    "main.js.map": "/p2/static/js/main.152df33c.chunk.js.map",
+    "runtime-main.js": "/p2/static/js/runtime-main.8df2dfe1.js",
+    "runtime-main.js.map": "/p2/static/js/runtime-main.8df2dfe1.js.map",
+    "static/js/2.93f51b65.chunk.js": "/p2/static/js/2.93f51b65.chunk.js",
+    "static/js/2.93f51b65.chunk.js.map": "/p2/static/js/2.93f51b65.chunk.js.map",
+    "index.html": "/p2/index.html",
+    "precache-manifest.1bc8457a3a8abd61e5778f2babdb47e6.js": "/p2/precache-manifest.1bc8457a3a8abd61e5778f2babdb47e6.js",
+    "service-worker.js": "/p2/service-worker.js",
+    "static/css/main.ac33b586.chunk.css.map": "/p2/static/css/main.ac33b586.chunk.css.map",
+    "static/js/2.93f51b65.chunk.js.LICENSE.txt": "/p2/static/js/2.93f51b65.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/p2/static/media/windia.74b4a68b.png",
+    "static/media/email.6546cae3.svg": "/p2/static/media/email.6546cae3.svg",
+    "static/media/fb.544a5ba1.svg": "/p2/static/media/fb.544a5ba1.svg",
+    "static/media/gh.b6d06028.svg": "/p2/static/media/gh.b6d06028.svg",
+    "static/media/ig.66ad6d45.svg": "/p2/static/media/ig.66ad6d45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8df2dfe1.js",
+    "static/js/2.93f51b65.chunk.js",
+    "static/css/main.ac33b586.chunk.css",
+    "static/js/main.152df33c.chunk.js"
+  ]
+}
